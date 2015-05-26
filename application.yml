@@ -1,0 +1,19 @@
+security:
+ sessions: NEVER
+
+spring:
+ data:
+  mongodb:
+   host: localhost
+   database: optosoft-dev
+
+spring:
+ rabbitmq:
+  host: localhost
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
