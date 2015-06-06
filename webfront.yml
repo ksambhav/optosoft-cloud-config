@@ -1,0 +1,8 @@
+server:
+ port: 8080
+zuul:
+ routes:
+  resource:
+   path: /customer/**
+   url: http://localhost:9000/
+   stripPrefix: false 
