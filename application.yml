@@ -6,10 +6,3 @@ spring:
   mongodb:
    host: localhost
    database: optosoft-dev
----
-eureka:
-  client:
-    registerWithEureka: true
-    fetchRegistry: false
-    server:
-      waitTimeInMsWhenSyncEmpty: 0
