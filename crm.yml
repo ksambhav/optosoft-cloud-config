@@ -1,2 +1,4 @@
 server:
  port: ${PORT:9000}
+security:
+ sessions: NEVER

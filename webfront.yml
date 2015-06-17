@@ -1,7 +1,5 @@
 server:
  port: 8080
-security:
- sessions: ALWAYS
 zuul:
  routes:
   resource:
